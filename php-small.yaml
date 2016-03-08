@@ -106,12 +106,12 @@ parameters:
       - 64GB Instance
   server_image:
     type: string
-    default: f4bbbce2-50b0-4b07-bf09-96c175a45f4b
+    default: b270714f-10da-4981-aa39-36ddc2daa24a
     label: Server Image
     description: Image to be used for all servers in this stack
     constraints:
     - allowed_values:
-      - f4bbbce2-50b0-4b07-bf09-96c175a45f4b
+      - b270714f-10da-4981-aa39-36ddc2daa24a
   server_count:
     type: number
     default: 0
